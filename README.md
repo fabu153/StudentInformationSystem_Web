@@ -1,5 +1,6 @@
 # Student Information System (SIS) 📚
 
+`Site URL`: https://studentinformationsystemweb20250319154148-ejechneaaddyg4c3.canadacentral-01.azurewebsites.net/
 Welcome to the Student Information System! This web-based application allows for simple management of student data, including registration, login, course enrollment, and administrative management of students, courses, and enrollments.
 
 ---
