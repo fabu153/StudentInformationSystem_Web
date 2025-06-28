@@ -1,6 +1,6 @@
 # Student Information System (SIS) 📚
 
-`Site URL`: https://studentinformationsystemweb20250319154148-ejechneaaddyg4c3.canadacentral-01.azurewebsites.net/ <br />
+`Site URL`: http://fabu153-001-site1.rtempurl.com/ <br />
 Welcome to the Student Information System! This web-based application allows for simple management of student data, including registration, login, course enrollment, and administrative management of students, courses, and enrollments.
 
 ---
@@ -22,7 +22,7 @@ Welcome to the Student Information System! This web-based application allows for
 
 ## Overview
 
-The **Student Information System (SIS)** is built on ASP.NET Web Forms with Entity Framework Code First, deployed on Azure App Service, and uses Supabase PostgreSQL for data storage. The system handles student registration, login, course enrollment, and administration of student records.
+The **Student Information System (SIS)** is built on ASP.NET Web Forms with Entity Framework Code First, deployed on SmarterASP.net Service, and uses Supabase PostgreSQL for data storage. The system handles student registration, login, course enrollment, and administration of student records.
 
 ---
 
@@ -154,8 +154,8 @@ Admins can:
 ## Deployment 🚀
 
 - **Environment:**  
-  Deployed to Azure App Service. <br />
-`Site URL:` https://studentinformationsystemweb20250319154148-ejechneaaddyg4c3.canadacentral-01.azurewebsites.net/
+  Deployed to SmarterASP.net Service. <br />
+`Site URL:` http://fabu153-001-site1.rtempurl.com/
   
 - **Configuration:**  
   Web.config includes connection strings, SMTP settings, binding redirects, and EF provider settings.
