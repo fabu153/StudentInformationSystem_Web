@@ -1,6 +1,6 @@
 # Student Information System (SIS) 📚
 
-`Site URL`: http://fabu153-001-site1.rtempurl.com/ <br />
+`Site URL`: http://sis.fabriziofaragalli.xyz/  <br />
 Welcome to the Student Information System! This web-based application allows for simple management of student data, including registration, login, course enrollment, and administrative management of students, courses, and enrollments.
 
 ---
@@ -155,7 +155,7 @@ Admins can:
 
 - **Environment:**  
   Deployed to SmarterASP.net Service. <br />
-`Site URL:` http://fabu153-001-site1.rtempurl.com/
+`Site URL:` http://sis.fabriziofaragalli.xyz/ 
   
 - **Configuration:**  
   Web.config includes connection strings, SMTP settings, binding redirects, and EF provider settings.
