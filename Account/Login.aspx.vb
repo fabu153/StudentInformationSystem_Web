@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 Imports System.Linq
 Imports System.Web
 Imports System.Web.UI
@@ -9,10 +9,17 @@ Partial Public Class Login
     Inherits Page
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Dim rawReturnUrl As String = Request.QueryString("ReturnUrl")
+        If Not IsPostBack AndAlso Not String.IsNullOrEmpty(rawReturnUrl) AndAlso rawReturnUrl.Contains("/Account/Login") Then
+            Response.Redirect("~/Default.aspx")
+            Return
+        End If
+
         ' Set the Register hyperlink to point to the Register page.
         RegisterHyperLink.NavigateUrl = "Register"
+
         ' Append ReturnUrl if present.
-        Dim returnUrl As String = HttpUtility.UrlEncode(Request.QueryString("ReturnUrl"))
+        Dim returnUrl As String = HttpUtility.UrlEncode(rawReturnUrl)
         If Not String.IsNullOrEmpty(returnUrl) Then
             RegisterHyperLink.NavigateUrl &= "?ReturnUrl=" & returnUrl
         End If
